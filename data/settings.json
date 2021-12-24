@@ -1,0 +1,44 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "beautify.onSave": true,
+  "indent_size": 4,
+  "indent_char": " ",
+  "css": {
+    "indent_size": 2
+  },
+
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+      // "ext": ["js", "json"]
+      // ^^ to set extensions to be beautified using the javascript beautifier
+    },
+    "css": ["css", "scss"],
+    "html": ["htm", "html"]
+    // ^^ providing just an array sets the VS Code file type
+},
+"workbench.preferredDarkColorTheme": "Visual Studio Dark",
+"explorer.openEditors.visible": 0,
+"editor.lineHeight": 20,
+"php.suggest.basic": true,
+"editor.autoIndent": "advanced",
+"editor.codeActionsOnSave": null,
+"[php]": {
+  "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+},
+"files.autoSave": "off",
+"editor.fontSize": 15,
+"workbench.editorAssociations": {
+  "*.exe": "default"
+},
+}
+
