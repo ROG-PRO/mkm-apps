@@ -1,1 +1,0 @@
-SET PASSWORD FOR root@'localhost' = PASSWORD('Mkm@3210_');
